@@ -79,5 +79,4 @@ Simply double-click **mochawesome.html** to view results in your browser.
 
 ---
 
-**Prepared by**: Abhay Kumar Verma
 © 2025 Abhay Kumar Verma

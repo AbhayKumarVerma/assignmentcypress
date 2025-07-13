@@ -80,5 +80,6 @@ mochawesome-report/
    ![Screenshot 2](https://github.com/user-attachments/assets/87c59a9a-4cb0-4106-be23-0892a9b8549a)
 
 ---
-Good luck! let me know if need anythin.
+Good luck! let me know if need anything.
+---
 © 2025 Abhay Kumar Verma

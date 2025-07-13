@@ -83,5 +83,11 @@ mochawesome-report/mochawesome.html
 
 ---
 
+**Deadline:** Monday, July 14 EOD
+
 Good luck! Let me know if you need anything.
-© 2025 Abhay Kumar Verma
+
+---
+
+**Prepared by**: Abhay Kumar Verma
+© 2025 Abhay Kumar Verma

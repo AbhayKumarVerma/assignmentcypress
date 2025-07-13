@@ -8,49 +8,44 @@ A lightweight Cypress test suite using the Page‑Object Model to automate **Use
 
 1. **Clone the repository**
 
-   
-bash
+   ```bash
    git clone https://github.com/AbhayKumarVerma/assignmentcypress.git
    cd assignmentcypress
-
+   ```
 
 2. **Install dependencies**
 
-   
-bash
+   ```bash
    npm install
-
+   ```
 
 3. **Start the application**
 
-   Ensure the app is running at http://localhost:3000:
+   Ensure the app is running at `http://localhost:3000`:
 
-   
-bash
+   ```bash
    npm start
-
+   ```
 
 4. **Run the Cypress tests**
 
    * **Interactive mode**:
 
-     
-bash
+     ```bash
      npm run cypress:open
-
+     ```
 
    * **Headless mode (with HTML report)**:
 
-     
-bash
+     ```bash
      npm run cypress:run
-
+     ```
 
 ---
 
 ## ✨ Project Structure
 
-plaintext
+```plaintext
 assignmentcypress/
 ├── cypress/
 │   ├── fixtures/           # testData.json
@@ -67,7 +62,7 @@ assignmentcypress/
 ├── cypress.config.js       # Cypress configuration
 ├── package.json            # scripts & dependencies
 └── README.md               # this file
-
+```
 
 ---
 
@@ -75,10 +70,10 @@ assignmentcypress/
 
 After headless execution, open the generated report:
 
-plaintext
+```plaintext
 mochawesome-report/
 └── mochawesome.html
-
+```
 
 Simply double-click **mochawesome.html** to view results in your browser.
 

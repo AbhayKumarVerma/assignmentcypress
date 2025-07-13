@@ -45,30 +45,13 @@ A lightweight Cypress test suite using the Page‑Object Model to automate **Use
 
 ## ✨ Project Structure
 
-```plaintext
-assignmentcypress/
-├── cypress/
-│   ├── fixtures/           # testData.json
-│   ├── downloads/          # downloaded files during tests
-│   ├── integration/        # spec files
-│   │   ├── useCase1.spec.js
-│   │   └── useCase2.spec.js
-│   ├── plugins/            # Cypress plugins (index.js)
-│   └── support/
-│       ├── pages/          # Page Object classes
-│       ├── commands.js     # cy.login(), cy.logout()
-│       ├── e2e.js          # global setup
-│       └── index.js        # legacy support imports
-├── cypress.config.js       # Cypress configuration
-├── package.json            # scripts & dependencies
-└── README.md               # this file
+### Test Runner Preview
+
+Place your screenshot in the repo (e.g. at `./screenshots/cypress-runner.png`) and reference it like this:
+
+```md
+![Cypress Test Runner](screenshots/cypress-runner.png)
 ```
-
----
-
-## ✨ Test Report
-
-After headless execution, open the generated report:
 
 ```plaintext
 mochawesome-report/
@@ -79,4 +62,9 @@ Simply double-click **mochawesome.html** to view results in your browser.
 
 ---
 
+**Deadline:** Monday, July 14 EOD
+
+---
+
+**Prepared by**: Abhay Kumar Verma
 © 2025 Abhay Kumar Verma

@@ -8,55 +8,77 @@ A lightweight Cypress test suite using the Page‑Object Model to automate **Use
 
 1. **Clone the repository**
 
-   ```bash
+   
+bash
    git clone https://github.com/AbhayKumarVerma/assignmentcypress.git
    cd assignmentcypress
-   ```
+
 
 2. **Install dependencies**
 
-   ```bash
+   
+bash
    npm install
-   ```
+
 
 3. **Start the application**
 
-   Ensure the app is running at `http://localhost:3000`:
+   Ensure the app is running at http://localhost:3000:
 
-   ```bash
+   
+bash
    npm start
-   ```
+
 
 4. **Run the Cypress tests**
 
    * **Interactive mode**:
 
-     ```bash
+     
+bash
      npm run cypress:open
-     ```
+
 
    * **Headless mode (with HTML report)**:
 
-     ```bash
+     
+bash
      npm run cypress:run
-     ```
+
 
 ---
 
 ## ✨ Project Structure
 
-### Test Runner Preview
+plaintext
+assignmentcypress/
+├── cypress/
+│   ├── fixtures/           # testData.json
+│   ├── downloads/          # downloaded files during tests
+│   ├── integration/        # spec files
+│   │   ├── useCase1.spec.js
+│   │   └── useCase2.spec.js
+│   ├── plugins/            # Cypress plugins (index.js)
+│   └── support/
+│       ├── pages/          # Page Object classes
+│       ├── commands.js     # cy.login(), cy.logout()
+│       ├── e2e.js          # global setup
+│       └── index.js        # legacy support imports
+├── cypress.config.js       # Cypress configuration
+├── package.json            # scripts & dependencies
+└── README.md               # this file
 
-Place your screenshot in the repo (e.g. at `./screenshots/cypress-runner.png`) and reference it like this:
 
-```md
-![Cypress Test Runner](screenshots/cypress-runner.png)
-```
+---
 
-```plaintext
+## ✨ Test Report
+
+After headless execution, open the generated report:
+
+plaintext
 mochawesome-report/
 └── mochawesome.html
-```
+
 
 Simply double-click **mochawesome.html** to view results in your browser.
 

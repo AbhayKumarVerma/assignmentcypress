@@ -1,95 +1,69 @@
 # ✨ Cypress POM Automation Assignment
 
-A lightweight Cypress test suite using the Page‑Object Model to automate **Use Case 1: Create Message‑Box Task**.
+A lightweight Cypress test suite using the Page‑Object Model to automate **Use Case 1: Create Message‑Box Task** against an existing application.
 
 ---
 
 ## ✨ Getting Started
 
-1. **Clone the repo**
+1. **Clone the repository**
 
    ```bash
+   git clone https://github.com/AbhayKumarVerma/assignmentcypress.git
+   cd assignmentcypress
    ```
-
-git clone [https://github.com/AbhayKumarVerma/assignmentcypress.git](https://github.com/AbhayKumarVerma/assignmentcypress.git)
-cd assignmentcypress
-
-````
 
 2. **Install dependencies**
 
    ```bash
-npm install
-````
-
-3. **Start your app**
-
-   Ensure the application runs at `http://localhost:3000`:
-
-   ```bash
+   npm install
    ```
 
-npm start
+3. **Start the application**
 
-````
+   Ensure the app is running at `http://localhost:3000`:
 
-4. **Run tests**
+   ```bash
+   npm start
+   ```
 
-   - **Interactive mode**
+4. **Run the Cypress tests**
+
+   * **Interactive mode**:
+
      ```bash
-npm run cypress:open
-````
+     npm run cypress:open
+     ```
 
-* **Headless with report**
+   * **Headless mode (with HTML report)**:
 
-  ```bash
-  ```
-
-npm run cypress\:run
-
-````
+     ```bash
+     npm run cypress:run
+     ```
 
 ---
 
 ## ✨ Project Structure
 
+### Test Runner Preview
+
+Place your screenshot in the repo (e.g. at `./screenshots/cypress-runner.png`) and reference it like this:
+
+```md
+![Cypress Test Runner](screenshots/cypress-runner.png)
+```
+
 ```plaintext
-assignmentcypress/
-├── cypress/
-│   ├── fixtures/
-│   │   └── testData.json           # test data inputs
-│   ├── downloads/                  # files downloaded during tests
-│   ├── integration/                # spec files
-│   │   ├── useCase1.spec.js
-│   │   └── useCase2.spec.js
-│   ├── plugins/
-│   │   └── index.js                # plugin setup
-│   └── support/
-│       ├── pages/                  # Page Object classes
-│       ├── commands.js             # custom commands (login, logout)
-│       ├── e2e.js                  # global setup
-│       └── index.js                # legacy support import
-├── cypress.config.js               # Cypress configuration
-├── package.json                    # scripts & dependencies
-└── README.md                       # this file
-````
-
----
-
-## ✨ Test Report
-
-After running headless tests (`npm run cypress:run`), view the HTML report at:
-
-```
-mochawesome-report/mochawesome.html
+mochawesome-report/
+└── mochawesome.html
 ```
 
----
-
-C:\Users\abhay verma\OneDrive\Pictures\Screenshots\Screenshot 2025-07-11 224622.png
-C:\Users\abhay verma\OneDrive\Pictures\Screenshots\Screenshot 2025-07-11 224631.png
-
-Let me know if you need anything.
+Simply double-click **mochawesome.html** to view results in your browser.
 
 ---
-© 2025 Abhay Kumar Verma  
+
+<img width="1036" height="215" alt="Screenshot 2025-07-11 224631" src="https://github.com/user-attachments/assets/6cdbd54c-4e0e-49e2-a574-0bbd44b55a4a" />
+<img width="1855" height="1125" alt="Screenshot 2025-07-11 224607" src="https://github.com/user-attachments/assets/87c59a9a-4cb0-4106-be23-0892a9b8549a" />
+
+---
+© 2025 Abhay Kumar Verma

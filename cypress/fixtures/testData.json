@@ -1,0 +1,15 @@
+{
+  "login": {
+    "username": "testuser",
+    "password": "Test@123"
+  },
+  "useCase1": {
+    "botName": "MyTestBot",
+    "message": "Hello, Cypress!"
+  },
+  "useCase2": {
+    "instanceName": "LearnInst1",
+    "customField1": "Value A",
+    "customField2": "Value B"
+  }
+}

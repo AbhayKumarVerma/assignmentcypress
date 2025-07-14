@@ -15,15 +15,17 @@ A lightweight Cypress test suite using the Page‑Object Model to automate **Use
 2. **Install dependencies**  
    ```bash
    npm install
+   
+   npm install --save-dev cypress mochawesome cypress-mochawesome-reporter
    ```
 
-3. **Start the application**  
+4. **Start the application**  
    Ensure the app is running at `http://localhost:3000`:  
    ```bash
    npm start
    ```
 
-4. **Run the Cypress tests**  
+5. **Run the Cypress tests**  
    - **Interactive mode**:  
      ```bash
      npm run cypress:open
